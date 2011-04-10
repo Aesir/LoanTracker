@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @7 @14 @71)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="CollapseOnNotNullConverter" />
+    <Node Id="(@1 @7 @14 Member=(Name=Convert OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Convert" />
+    <Node Id="(@1 @7 @14 Member=(Name=ConvertBack OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ConvertBack" />
+    <Node Id="(@1 @7 @16 @71)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="CollapseOnNullConverter" />
+    <Node Id="(@1 @7 @16 Member=(Name=Convert OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Convert" />
+    <Node Id="(@1 @7 @16 Member=(Name=ConvertBack OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ConvertBack" />
+    <Node Id="(@1 @7 @24 Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@67 @38 Type=Int32),(@67 @38 Type=Object)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="System.Windows.Markup.IComponentConnector.Connect" />
+    <Node Id="(@3 @9 @28 Member=ObjectInvariant)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="ObjectInvariant" />
+    <Node Id="(@3 @9 @30 Member=ObjectInvariant)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="ObjectInvariant" />
+    <Node Id="(@3 @9 @30 Member=get_Lent)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Lent" />
+    <Node Id="(@5 @11 @20 Member=get_MakePaymentCommand)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MakePaymentCommand" />
+    <Node Id="(@5 @11 @22 Member=get_APR)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_APR" />
+    <Node Id="(@5 @11 @22 Member=get_MakePaymentCommand)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MakePaymentCommand" />
+    <Node Id="(@5 @11 @22 Member=get_OutstandingBalance)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_OutstandingBalance" />
+    <Node Id="(@5 @11 @22 Member=get_OweTo)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_OweTo" />
+    <Node Id="(@5 @11 @26 Member=get_People)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_People" />
+    <Node Id="(@5 @11 @32 Member=get_LoansInRepayment)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_LoansInRepayment" />
+    <Node Id="(@5 @11 @34 Member=(Name=add_PropertyChanged OverloadingParameters=[(@57 Namespace=System.ComponentModel Type=PropertyChangedEventHandler)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="add_PropertyChanged" />
+    <Node Id="(@5 @11 @34 Member=(Name=remove_PropertyChanged OverloadingParameters=[(@57 Namespace=System.ComponentModel Type=PropertyChangedEventHandler)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="remove_PropertyChanged" />
+    <Node Id="@10" Category="CodeSchema_Namespace" Group="Expanded" Label="LoanTracker.Models" />
+    <Node Id="@12" Category="CodeSchema_Namespace" Group="Expanded" Label="LoanTracker.ViewModels" />
+    <Node Id="@13" Category="CodeSchema_Class" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="LoanViewModel.&lt;&gt;c__DisplayClass2" />
+    <Node Id="@15" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="CollapseOnNotNullConverter" />
+    <Node Id="@17" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="CollapseOnNullConverter" />
+    <Node Id="@19" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Loan" />
+    <Node Id="@2" Category="FileSystem.Category.FileOfType.exe" CodeSchemaProperty_StrongName="LoanTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="$(5776c2d1-4bf1-46fa-9a6e-c29c11d26f64.OutputPath)" Group="Expanded" Label="LoanTracker.exe">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="LoanPaymentViewModel" />
+    <Node Id="@23" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="LoanViewModel" />
+    <Node Id="@25" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="MainWindow" />
+    <Node Id="@27" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="MainWindowViewModel" />
+    <Node Id="@29" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Payment" />
+    <Node Id="@31" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Person" />
+    <Node Id="@33" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PersonViewModel" />
+    <Node Id="@35" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PropertyChangedBase" />
+    <Node Id="@37" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_LoansInRepayment" />
+    <Node Id="@39" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="OutstandingBalance" />
+    <Node Id="@4" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="LoanTracker.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="$(8de0fd74-db15-4d40-b02a-d7b7a4b80f78.OutputPath)" Group="Expanded" Label="LoanTracker.Models.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Deposit" />
+    <Node Id="@43" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Balance" />
+    <Node Id="@44" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_OutstandingBalance" />
+    <Node Id="@45" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PaymentAmount" />
+    <Node Id="@46" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Withdraw" />
+    <Node Id="@47" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;.ctor&gt;b__0" />
+    <Node Id="@48" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;.ctor&gt;b__0" />
+    <Node Id="@49" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;.ctor&gt;b__1" />
+    <Node Id="@50" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PaymentMaker" />
+    <Node Id="@51" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="MakePaymentCanExecute" />
+    <Node Id="@52" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="MakePaymentCanExecute" />
+    <Node Id="@53" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="MakePaymentExecute" />
+    <Node Id="@54" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="MakePaymentExecute" />
+    <Node Id="@55" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;.ctor&gt;b__0" />
+    <Node Id="@56" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;.ctor&gt;b__2" />
+    <Node Id="@58" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="NotifyPropertyChanged" />
+    <Node Id="@6" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="LoanTracker.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="$(9304aef1-4e5b-4110-9389-0bcc6a8725e6.OutputPath)" Group="Expanded" Label="LoanTracker.ViewModels.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@60" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Payment" />
+    <Node Id="@61" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="MakePayment" />
+    <Node Id="@62" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Borrow" />
+    <Node Id="@63" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Person" />
+    <Node Id="@65" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="LoanPaymentViewModel" />
+    <Node Id="@66" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="LoanViewModel" />
+    <Node Id="@68" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PersonViewModel" />
+    <Node Id="@69" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Loan" />
+    <Node Id="@70" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Loan" />
+    <Node Id="@72" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="&lt;&gt;c__DisplayClass2" />
+    <Node Id="@73" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="MainWindow" />
+    <Node Id="@74" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="MainWindowViewModel" />
+    <Node Id="@75" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="PropertyChangedBase" />
+    <Node Id="@76" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Amount" />
+    <Node Id="@77" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_APR" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Balance" />
+    <Node Id="@79" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Balance" />
+    <Node Id="@8" Category="CodeSchema_Namespace" Group="Expanded" Label="LoanTracker" />
+    <Node Id="@80" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Borrowed" />
+    <Node Id="@81" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Borrower" />
+    <Node Id="@82" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Date" />
+    <Node Id="@83" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_InitialPrinciple" />
+    <Node Id="@84" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Lender" />
+    <Node Id="@85" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Name" />
+    <Node Id="@86" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Name" />
+    <Node Id="@87" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_OpeningDate" />
+    <Node Id="@88" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PaymentAmount" />
+    <Node Id="@89" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PaymentMaker" />
+    <Node Id="@90" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Payments" />
+    <Node Id="@91" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetEveryone" />
+    <Node Id="@92" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="InitializeComponent" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@19" Category="Contains" />
+    <Link Source="@10" Target="@29" Category="Contains" />
+    <Link Source="@10" Target="@31" Category="Contains" />
+    <Link Source="@12" Target="@13" Category="Contains" />
+    <Link Source="@12" Target="@21" Category="Contains" />
+    <Link Source="@12" Target="@23" Category="Contains" />
+    <Link Source="@12" Target="@27" Category="Contains" />
+    <Link Source="@12" Target="@33" Category="Contains" />
+    <Link Source="@12" Target="@35" Category="Contains" />
+    <Link Source="@13" Target="@19" Category="References" />
+    <Link Source="@13" Target="@23" Category="References" />
+    <Link Source="@13" Target="@47" Category="Contains" />
+    <Link Source="@13" Target="@72" Category="Contains" />
+    <Link Source="@15" Target="(@1 @7 @14 @71)" Category="Contains" />
+    <Link Source="@15" Target="(@1 @7 @14 Member=(Name=Convert OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="Contains" />
+    <Link Source="@15" Target="(@1 @7 @14 Member=(Name=ConvertBack OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="Contains" />
+    <Link Source="@17" Target="(@1 @7 @16 @71)" Category="Contains" />
+    <Link Source="@17" Target="(@1 @7 @16 Member=(Name=Convert OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="Contains" />
+    <Link Source="@17" Target="(@1 @7 @16 Member=(Name=ConvertBack OverloadingParameters=[(@67 @38 Type=Object),(@67 @38 Type=Type),(@67 @38 Type=Object),(@67 Namespace=System.Globalization Type=CultureInfo)]))" Category="Contains" />
+    <Link Source="@19" Target="@31" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@19" Target="@39" Category="Contains" />
+    <Link Source="@19" Target="@61" Category="Contains" />
+    <Link Source="@19" Target="@69" Category="Contains" />
+    <Link Source="@19" Target="@70" Category="Contains" />
+    <Link Source="@19" Target="@77" Category="Contains" />
+    <Link Source="@19" Target="@81" Category="Contains" />
+    <Link Source="@19" Target="@83" Category="Contains" />
+    <Link Source="@19" Target="@84" Category="Contains" />
+    <Link Source="@19" Target="@87" Category="Contains" />
+    <Link Source="@19" Target="@90" Category="Contains" />
+    <Link Source="@2" Target="@8" Category="Contains" />
+    <Link Source="@21" Target="(@5 @11 @20 Member=get_MakePaymentCommand)" Category="Contains" />
+    <Link Source="@21" Target="@19" Category="References" />
+    <Link Source="@21" Target="@35" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@21" Target="@45" Category="Contains" />
+    <Link Source="@21" Target="@51" Category="Contains" />
+    <Link Source="@21" Target="@53" Category="Contains" />
+    <Link Source="@21" Target="@65" Category="Contains" />
+    <Link Source="@21" Target="@88" Category="Contains" />
+    <Link Source="@23" Target="(@5 @11 @22 Member=get_APR)" Category="Contains" />
+    <Link Source="@23" Target="(@5 @11 @22 Member=get_MakePaymentCommand)" Category="Contains" />
+    <Link Source="@23" Target="(@5 @11 @22 Member=get_OutstandingBalance)" Category="Contains" />
+    <Link Source="@23" Target="(@5 @11 @22 Member=get_OweTo)" Category="Contains" />
+    <Link Source="@23" Target="@13" Category="Contains" />
+    <Link Source="@23" Target="@19" Category="References" />
+    <Link Source="@23" Target="@21" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@23" Target="@35" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@23" Target="@44" Category="Contains" />
+    <Link Source="@23" Target="@50" Category="Contains" />
+    <Link Source="@23" Target="@52" Category="Contains" />
+    <Link Source="@23" Target="@54" Category="Contains" />
+    <Link Source="@23" Target="@66" Category="Contains" />
+    <Link Source="@23" Target="@89" Category="Contains" />
+    <Link Source="@25" Target="(@1 @7 @24 Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@67 @38 Type=Int32),(@67 @38 Type=Object)]))" Category="Contains" />
+    <Link Source="@25" Target="@73" Category="Contains" />
+    <Link Source="@25" Target="@92" Category="Contains" />
+    <Link Source="@27" Target="(@5 @11 @26 Member=get_People)" Category="Contains" />
+    <Link Source="@27" Target="@55" Category="Contains" />
+    <Link Source="@27" Target="@74" Category="Contains" />
+    <Link Source="@29" Target="(@3 @9 @28 Member=ObjectInvariant)" Category="Contains" />
+    <Link Source="@29" Target="@60" Category="Contains" />
+    <Link Source="@29" Target="@76" Category="Contains" />
+    <Link Source="@29" Target="@82" Category="Contains" />
+    <Link Source="@31" Target="(@3 @9 @30 Member=ObjectInvariant)" Category="Contains" />
+    <Link Source="@31" Target="(@3 @9 @30 Member=get_Lent)" Category="Contains" />
+    <Link Source="@31" Target="@42" Category="Contains" />
+    <Link Source="@31" Target="@43" Category="Contains" />
+    <Link Source="@31" Target="@46" Category="Contains" />
+    <Link Source="@31" Target="@62" Category="Contains" />
+    <Link Source="@31" Target="@63" Category="Contains" />
+    <Link Source="@31" Target="@78" Category="Contains" />
+    <Link Source="@31" Target="@80" Category="Contains" />
+    <Link Source="@31" Target="@85" Category="Contains" />
+    <Link Source="@31" Target="@91" Category="Contains" />
+    <Link Source="@33" Target="(@5 @11 @32 Member=get_LoansInRepayment)" Category="Contains" />
+    <Link Source="@33" Target="@31" Category="References" />
+    <Link Source="@33" Target="@35" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@33" Target="@37" Category="Contains" />
+    <Link Source="@33" Target="@48" Category="Contains" />
+    <Link Source="@33" Target="@49" Category="Contains" />
+    <Link Source="@33" Target="@56" Category="Contains" />
+    <Link Source="@33" Target="@68" Category="Contains" />
+    <Link Source="@33" Target="@79" Category="Contains" />
+    <Link Source="@33" Target="@86" Category="Contains" />
+    <Link Source="@35" Target="(@5 @11 @34 Member=(Name=add_PropertyChanged OverloadingParameters=[(@57 Namespace=System.ComponentModel Type=PropertyChangedEventHandler)]))" Category="Contains" />
+    <Link Source="@35" Target="(@5 @11 @34 Member=(Name=remove_PropertyChanged OverloadingParameters=[(@57 Namespace=System.ComponentModel Type=PropertyChangedEventHandler)]))" Category="Contains" />
+    <Link Source="@35" Target="@58" Category="Contains" />
+    <Link Source="@35" Target="@75" Category="Contains" />
+    <Link Source="@37" Target="@58" Category="CodeSchema_Calls" />
+    <Link Source="@39" Target="@29" Category="References" />
+    <Link Source="@39" Target="@76" Category="CodeSchema_Calls" />
+    <Link Source="@39" Target="@77" Category="CodeSchema_Calls" />
+    <Link Source="@39" Target="@82" Category="CodeSchema_Calls" />
+    <Link Source="@39" Target="@83" Category="CodeSchema_Calls" />
+    <Link Source="@39" Target="@87" Category="CodeSchema_Calls" />
+    <Link Source="@39" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@4" Target="@10" Category="Contains" />
+    <Link Source="@42" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@42" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@44" Target="@58" Category="CodeSchema_Calls" />
+    <Link Source="@45" Target="@58" Category="CodeSchema_Calls" />
+    <Link Source="@46" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@46" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@23" Category="References" />
+    <Link Source="@47" Target="@39" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@44" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@50" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@81" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@48" Target="@39" Category="CodeSchema_Calls" />
+    <Link Source="@49" Target="@23" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@49" Target="@66" Category="CodeSchema_Calls" />
+    <Link Source="@50" Target="@58" Category="CodeSchema_Calls" />
+    <Link Source="@51" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@51" Target="@81" Category="CodeSchema_Calls" />
+    <Link Source="@51" Target="@88" Category="CodeSchema_Calls" />
+    <Link Source="@52" Target="@89" Category="CodeSchema_Calls" />
+    <Link Source="@53" Target="@61" Category="CodeSchema_Calls" />
+    <Link Source="@53" Target="@88" Category="CodeSchema_Calls" />
+    <Link Source="@54" Target="@50" Category="CodeSchema_Calls" />
+    <Link Source="@54" Target="@65" Category="CodeSchema_Calls" />
+    <Link Source="@55" Target="@33" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@55" Target="@68" Category="CodeSchema_Calls" />
+    <Link Source="@56" Target="@58" Category="CodeSchema_Calls" />
+    <Link Source="@6" Target="@12" Category="Contains" />
+    <Link Source="@61" Target="@29" Category="References" />
+    <Link Source="@61" Target="@39" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@42" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@46" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@60" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@81" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@82" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@19" Category="References" />
+    <Link Source="@62" Target="@42" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@46" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@69" Category="CodeSchema_Calls" />
+    <Link Source="@63" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@65" Target="@51" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@65" Target="@53" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@65" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@13" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+    </Link>
+    <Link Source="@66" Target="@39" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@47" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@66" Target="@52" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@66" Target="@54" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@66" Target="@72" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@77" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@85" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@37" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@48" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@68" Target="@49" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@68" Target="@56" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@68" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@80" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@70" Category="CodeSchema_Calls" />
+    <Link Source="@73" Target="@74" Category="CodeSchema_Calls" />
+    <Link Source="@73" Target="@92" Category="CodeSchema_Calls" />
+    <Link Source="@74" Target="@55" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@91" Category="CodeSchema_Calls" />
+    <Link Source="@79" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@8" Target="@15" Category="Contains" />
+    <Link Source="@8" Target="@17" Category="Contains" />
+    <Link Source="@8" Target="@25" Category="Contains" />
+    <Link Source="@81" Target="@31" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@84" Target="@31" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@86" Target="@85" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@21" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@91" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@91" Target="@63" Category="CodeSchema_Calls" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" IsProviderRoot="False" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blocks" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Member" Label="Member" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" IsProviderRoot="False" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" IsProviderRoot="False" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Statement" Label="Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Statement" />
+    <Category Id="CodeSchema_Type" Label="Type" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" IsProviderRoot="False" NavigationActionLabel="Files" />
+    <Category Id="FileSystem.Category.FileOfType.dll" Label="dll File" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="dll Files" />
+    <Category Id="FileSystem.Category.FileOfType.exe" Label="exe File" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="exe Files" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsCompilerGenerated" Label="IsCompilerGenerated" Description="IsCompilerGenerated" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="IsConstructor" Description="IsConstructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGeneratedCode" Label="IsGeneratedCode" Description="IsGeneratedCode" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="IsPrivate" Description="IsPrivate" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="IsProtected" Description="IsProtected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="IsSpecialName" Description="IsSpecialName" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Generic Arguments" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generics" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(5776c2d1-4bf1-46fa-9a6e-c29c11d26f64.OutputPathUri)" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(8de0fd74-db15-4d40-b02a-d7b7a4b80f78.OutputPathUri)" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=$(9304aef1-4e5b-4110-9389-0bcc6a8725e6.OutputPathUri)" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Id="Namespace=LoanTracker" />
+    <Alias n="8" Id="(@1 @7)" />
+    <Alias n="9" Id="Namespace=LoanTracker.Models" />
+    <Alias n="10" Id="(@3 @9)" />
+    <Alias n="11" Id="Namespace=LoanTracker.ViewModels" />
+    <Alias n="12" Id="(@5 @11)" />
+    <Alias n="13" Id="(@5 @11 Type=(Name=&lt;&gt;c__DisplayClass2 ParentType=LoanViewModel))" />
+    <Alias n="14" Id="Type=CollapseOnNotNullConverter" />
+    <Alias n="15" Id="(@1 @7 @14)" />
+    <Alias n="16" Id="Type=CollapseOnNullConverter" />
+    <Alias n="17" Id="(@1 @7 @16)" />
+    <Alias n="18" Id="Type=Loan" />
+    <Alias n="19" Id="(@3 @9 @18)" />
+    <Alias n="20" Id="Type=LoanPaymentViewModel" />
+    <Alias n="21" Id="(@5 @11 @20)" />
+    <Alias n="22" Id="Type=LoanViewModel" />
+    <Alias n="23" Id="(@5 @11 @22)" />
+    <Alias n="24" Id="Type=MainWindow" />
+    <Alias n="25" Id="(@1 @7 @24)" />
+    <Alias n="26" Id="Type=MainWindowViewModel" />
+    <Alias n="27" Id="(@5 @11 @26)" />
+    <Alias n="28" Id="Type=Payment" />
+    <Alias n="29" Id="(@3 @9 @28)" />
+    <Alias n="30" Id="Type=Person" />
+    <Alias n="31" Id="(@3 @9 @30)" />
+    <Alias n="32" Id="Type=PersonViewModel" />
+    <Alias n="33" Id="(@5 @11 @32)" />
+    <Alias n="34" Id="Type=PropertyChangedBase" />
+    <Alias n="35" Id="(@5 @11 @34)" />
+    <Alias n="36" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="37" Id="(@5 @11 @32 Member=(Name=set_LoansInRepayment OverloadingParameters=[(@36 Namespace=System.Collections.Generic Type=(Name=IEnumerable GenericParameterCount=1 GenericArguments=[@23]))]))" />
+    <Alias n="38" Id="Namespace=System" />
+    <Alias n="39" Id="(@3 @9 @18 Member=(Name=OutstandingBalance OverloadingParameters=[(@36 @38 Type=DateTime)]))" />
+    <Alias n="40" Id="(@36 @38 Type=Decimal)" />
+    <Alias n="41" Id="OverloadingParameters=[@40]" />
+    <Alias n="42" Id="(@3 @9 @30 Member=(Name=Deposit @41))" />
+    <Alias n="43" Id="(@3 @9 @30 Member=(Name=set_Balance @41))" />
+    <Alias n="44" Id="(@5 @11 @22 Member=(Name=set_OutstandingBalance @41))" />
+    <Alias n="45" Id="(@5 @11 @20 Member=(Name=set_PaymentAmount @41))" />
+    <Alias n="46" Id="(@3 @9 @30 Member=(Name=Withdraw @41))" />
+    <Alias n="47" Id="(@5 @11 Type=(Name=&lt;&gt;c__DisplayClass2 ParentType=LoanViewModel) Member=(Name=&lt;.ctor&gt;b__0 OverloadingParameters=[@19]))" />
+    <Alias n="48" Id="(@5 @11 @32 Member=(Name=&lt;.ctor&gt;b__0 OverloadingParameters=[@19]))" />
+    <Alias n="49" Id="(@5 @11 @32 Member=(Name=&lt;.ctor&gt;b__1 OverloadingParameters=[@19]))" />
+    <Alias n="50" Id="(@5 @11 @22 Member=(Name=set_PaymentMaker OverloadingParameters=[@21]))" />
+    <Alias n="51" Id="(@5 @11 @20 Member=(Name=MakePaymentCanExecute OverloadingParameters=[(@36 @38 Type=Object)]))" />
+    <Alias n="52" Id="(@5 @11 @22 Member=(Name=MakePaymentCanExecute OverloadingParameters=[(@36 @38 Type=Object)]))" />
+    <Alias n="53" Id="(@5 @11 @20 Member=(Name=MakePaymentExecute OverloadingParameters=[(@36 @38 Type=Object)]))" />
+    <Alias n="54" Id="(@5 @11 @22 Member=(Name=MakePaymentExecute OverloadingParameters=[(@36 @38 Type=Object)]))" />
+    <Alias n="55" Id="(@5 @11 @26 Member=(Name=&lt;.ctor&gt;b__0 OverloadingParameters=[@31]))" />
+    <Alias n="56" Id="(@5 @11 @32 Member=(Name=&lt;.ctor&gt;b__2 OverloadingParameters=[@31]))" />
+    <Alias n="57" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/System.dll" />
+    <Alias n="58" Id="(@5 @11 @34 Member=(Name=NotifyPropertyChanged OverloadingParameters=[(@36 @38 Type=String)]))" />
+    <Alias n="59" Id="Name=.ctor" />
+    <Alias n="60" Id="(@3 @9 @28 Member=(@59 OverloadingParameters=[@40,(@36 @38 Type=DateTime)]))" />
+    <Alias n="61" Id="(@3 @9 @18 Member=(Name=MakePayment OverloadingParameters=[@40,(@36 @38 Type=DateTime)]))" />
+    <Alias n="62" Id="(@3 @9 @30 Member=(Name=Borrow OverloadingParameters=[@31,@40]))" />
+    <Alias n="63" Id="(@3 @9 @30 Member=(@59 OverloadingParameters=[(@36 @38 Type=String),@40]))" />
+    <Alias n="64" Uri="Assembly=$(VsSolutionUri)/packages/reactiveui-core.2.2.1.0/lib/Net4/ReactiveUI.dll" />
+    <Alias n="65" Id="(@5 @11 @20 Member=(@59 OverloadingParameters=[(@64 Namespace=ReactiveUI Type=IMessageBus),@19]))" />
+    <Alias n="66" Id="(@5 @11 @22 Member=(@59 OverloadingParameters=[(@64 Namespace=ReactiveUI Type=IMessageBus),@19]))" />
+    <Alias n="67" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll" />
+    <Alias n="68" Id="(@5 @11 @32 Member=(@59 OverloadingParameters=[(@64 Namespace=ReactiveUI Type=IMessageBus),@31]))" />
+    <Alias n="69" Id="(@3 @9 @18 Member=(@59 OverloadingParameters=[@31,@31,@40,@40]))" />
+    <Alias n="70" Id="(@3 @9 @18 Member=(@59 OverloadingParameters=[@31,@31,@40,@40,(@36 @38 Type=DateTime)]))" />
+    <Alias n="71" Id="Member=.ctor" />
+    <Alias n="72" Id="(@5 @11 Type=(Name=&lt;&gt;c__DisplayClass2 ParentType=LoanViewModel) @71)" />
+    <Alias n="73" Id="(@1 @7 @24 @71)" />
+    <Alias n="74" Id="(@5 @11 @26 @71)" />
+    <Alias n="75" Id="(@5 @11 @34 @71)" />
+    <Alias n="76" Id="(@3 @9 @28 Member=get_Amount)" />
+    <Alias n="77" Id="(@3 @9 @18 Member=get_APR)" />
+    <Alias n="78" Id="(@3 @9 @30 Member=get_Balance)" />
+    <Alias n="79" Id="(@5 @11 @32 Member=get_Balance)" />
+    <Alias n="80" Id="(@3 @9 @30 Member=get_Borrowed)" />
+    <Alias n="81" Id="(@3 @9 @18 Member=get_Borrower)" />
+    <Alias n="82" Id="(@3 @9 @28 Member=get_Date)" />
+    <Alias n="83" Id="(@3 @9 @18 Member=get_InitialPrinciple)" />
+    <Alias n="84" Id="(@3 @9 @18 Member=get_Lender)" />
+    <Alias n="85" Id="(@3 @9 @30 Member=get_Name)" />
+    <Alias n="86" Id="(@5 @11 @32 Member=get_Name)" />
+    <Alias n="87" Id="(@3 @9 @18 Member=get_OpeningDate)" />
+    <Alias n="88" Id="(@5 @11 @20 Member=get_PaymentAmount)" />
+    <Alias n="89" Id="(@5 @11 @22 Member=get_PaymentMaker)" />
+    <Alias n="90" Id="(@3 @9 @18 Member=get_Payments)" />
+    <Alias n="91" Id="(@3 @9 @30 Member=GetEveryone)" />
+    <Alias n="92" Id="(@1 @7 @24 Member=InitializeComponent)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="5776c2d1-4bf1-46fa-9a6e-c29c11d26f64.OutputPath" Value="C:\Users\Bryan\Documents\Code\Personal\LoanTracker\LoanTracker\bin\Debug\LoanTracker.exe" />
+    <Path Id="5776c2d1-4bf1-46fa-9a6e-c29c11d26f64.OutputPathUri" Value="file:///C:/Users/Bryan/Documents/Code/Personal/LoanTracker/LoanTracker/bin/Debug/LoanTracker.exe" />
+    <Path Id="8de0fd74-db15-4d40-b02a-d7b7a4b80f78.OutputPath" Value="C:\Users\Bryan\Documents\Code\Personal\LoanTracker\LoanTracker.Models\bin\Debug\LoanTracker.Models.dll" />
+    <Path Id="8de0fd74-db15-4d40-b02a-d7b7a4b80f78.OutputPathUri" Value="file:///C:/Users/Bryan/Documents/Code/Personal/LoanTracker/LoanTracker.Models/bin/Debug/LoanTracker.Models.dll" />
+    <Path Id="9304aef1-4e5b-4110-9389-0bcc6a8725e6.OutputPath" Value="C:\Users\Bryan\Documents\Code\Personal\LoanTracker\LoanTracker.ViewModels\bin\Debug\LoanTracker.ViewModels.dll" />
+    <Path Id="9304aef1-4e5b-4110-9389-0bcc6a8725e6.OutputPathUri" Value="file:///C:/Users/Bryan/Documents/Code/Personal/LoanTracker/LoanTracker.ViewModels/bin/Debug/LoanTracker.ViewModels.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Bryan/Documents/Code/Personal/LoanTracker" />
+  </Paths>
+</DirectedGraph>
